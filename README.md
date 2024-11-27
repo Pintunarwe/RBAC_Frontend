@@ -122,9 +122,7 @@ Push to the branch:
 
 git push origin feature/your-feature
 Open a pull request to merge your changes into the main branch.
-License
-This project is open-source and available under the MIT License.
 
-Feel free to suggest improvements or report issues in the repository's Issues section.
 
-This README provides a clear, professional overview of your project and makes it accessible to contributors and users alike.
+
+
