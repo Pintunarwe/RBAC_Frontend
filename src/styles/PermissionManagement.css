@@ -1,0 +1,111 @@
+/* General container styling */
+.permission-management {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Heading styles */
+.permission-management h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Select Role and Permission Form styling */
+.select-role-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.select-role-form select,
+.select-role-form input,
+.select-role-form button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.select-role-form select {
+  width: 60%;
+}
+
+.select-role-form input {
+  width: 60%;
+}
+
+.select-role-form button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border: none;
+  width: 60%;
+}
+
+.select-role-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Permissions List */
+.permission-list {
+  margin-top: 20px;
+  width: 80%;
+  list-style: none;
+  padding-left: 0;
+}
+
+.permission-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.permission-list li button {
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.permission-list li button:hover {
+  background-color: #e02f2f;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .permission-management h1 {
+    font-size: 20px;
+  }
+
+  .select-role-form select,
+  .select-role-form input,
+  .select-role-form button {
+    width: 100%;
+  }
+
+  .permission-list {
+    width: 100%;
+  }
+}

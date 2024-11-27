@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #007bff; /* Blue background */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-around; /* Space links evenly */
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .navbar a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+  }
+  
+  .navbar a.active {
+    color: #ffcc00; /* Highlight active link */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Stack links vertically on small screens */
+      text-align: center;
+    }
+  
+    .navbar a {
+      margin-bottom: 10px;
+    }
+  }
+   

@@ -1,0 +1,43 @@
+/* General container styling */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full height of the viewport */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #007bff, #6c757d);
+    color: white;
+    text-align: center;
+    margin: 0; /* Removes default margin */
+  }
+  
+  /* Heading styles */
+  .dashboard h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Paragraph styling */
+  .dashboard p {
+    font-size: 18px;
+    margin: 0;
+    max-width: 600px;
+    line-height: 1.6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .dashboard h1 {
+      font-size: 24px;
+    }
+  
+    .dashboard p {
+      font-size: 16px;
+    }
+  }
+  
