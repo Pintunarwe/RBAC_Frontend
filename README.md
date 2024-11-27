@@ -1,4 +1,5 @@
 RBAC Dashboard
+
 This project is a Role-Based Access Control (RBAC) dashboard built with React, Redux, and integrated with management features like user, role, and permission management. It provides administrators with an intuitive interface to efficiently manage roles, users, and permissions.
 
 Getting Started
